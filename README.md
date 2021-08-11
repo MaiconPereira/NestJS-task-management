@@ -75,3 +75,4 @@ Nest is [MIT licensed](LICENSE).
 ## Commits descriptions
 - section 2 finished - Create Task module, controller and service (CRUD)
 - section 3 finished - Validation and Error Handling
+- section 4 finished - Data Persistence - PostgreSQL and TypeORM
