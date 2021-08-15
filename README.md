@@ -76,3 +76,6 @@ Nest is [MIT licensed](LICENSE).
 - section 2 finished - Create Task module, controller and service (CRUD)
 - section 3 finished - Validation and Error Handling
 - section 4 finished - Data Persistence - PostgreSQL and TypeORM
+- section 5 finished - Auth Part 1 - Authentication
+- section 6 finished - Auth Part 2 - Task Ownership and Restrictions
+- section 8 finished - (Bonus) Logging
