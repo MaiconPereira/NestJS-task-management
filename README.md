@@ -31,6 +31,14 @@
 ```bash
 $ npm install
 ```
+## Create a Docker image
+#### Make sure install Docker, for more details check [Docker install](https://docs.docker.com/engine/install/)
+
+```bash
+
+$ docker run --name postgres-nest -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres
+: 1628353628:0;docker run --name postgres-nest -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres
+```
 
 ## Running the app
 
@@ -51,9 +59,6 @@ $ npm run start:prod
 # unit tests
 $ npm run test
 
-# e2e tests
-$ npm run test:e2e
-
 # test coverage
 $ npm run test:cov
 ```
@@ -68,10 +73,6 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
 
-## License
-
-Nest is [MIT licensed](LICENSE).
-
 ## Commits descriptions
 - section 2 finished - Create Task module, controller and service (CRUD)
 - section 3 finished - Validation and Error Handling
@@ -79,3 +80,9 @@ Nest is [MIT licensed](LICENSE).
 - section 5 finished - Auth Part 1 - Authentication
 - section 6 finished - Auth Part 2 - Task Ownership and Restrictions
 - section 8 finished - (Bonus) Logging
+- section 9 finished - (Bonus) Configuration Management
+- section 12 finished - (Bonus) Unit Testing
+
+## License
+
+Nest is [MIT licensed](LICENSE).
